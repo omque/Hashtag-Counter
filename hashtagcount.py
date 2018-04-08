@@ -8,10 +8,17 @@ if len(sys.argv) < 2:
 	print("Please enter some hashtags to count. Use a command line argument.")
 	sys.exit()
 
-#Import hashtags into dictionary
+#Import hashtags into dictionary.
 dictionary = str(sys.argv[1:])
+
+#Count how many # are in dictionary.
+count = dictionary.count("#")
 
 #Print how many hashtags you have.
 print("----")
-print("You have {} hashtags.".format(dictionary.count("#")))
+print("You have {} hashtags.".format(count))
+
+#Print how many hashtags you have left.
+print("----")
+print("{} hashtags left.".format(count - 30))
 print("----")
