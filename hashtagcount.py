@@ -12,4 +12,6 @@ if len(sys.argv) < 2:
 dictionary = str(sys.argv[1:])
 
 #Print how many hashtags you have.
+print("----")
 print("You have {} hashtags.".format(dictionary.count("#")))
+print("----")
