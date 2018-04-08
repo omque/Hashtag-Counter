@@ -8,6 +8,4 @@ Python 3 is required.
 
 Paste hashtags as a command line argument with quotes so that spaces are not treated as separate arguments. 
 
-© 2018 All rights reserved.
-
 
