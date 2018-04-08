@@ -20,5 +20,5 @@ print("You have {} hashtags.".format(count))
 
 #Print how many hashtags you have left.
 print("----")
-print("{} hashtags left.".format(count - 30))
+print("{} hashtags left.".format(30 - count))
 print("----")
