@@ -1,14 +1,5 @@
-message = "#japan #japanese #japantravel #traveller #traveling #travelblog #japantrip #asiatravel #asiatrip #japanstyle #travelblogger #travelphotography #photography #photographer #travelasia #visitjapan #wanderlust"
+message = "#japan #japanese"
 
-print(hello)
-
-count = {}
-
-for in message:
-	count.setdefault(character, 0)
-	count[character] = count[character] + 1
-
-print(pprint.pformat(count))
-
-
+print("The hastags are:", message)
+print("The number of times '#' appears in this string is: ", message.count("#"))
 
