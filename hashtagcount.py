@@ -1,15 +1,15 @@
 #! python3
-# hashtagcount.py - Quickly check how many hashtags you have before posting to Instagram.
+# hashtagcount.py - Quickly check how many hashtags you have before posting to Instagram. Supply as command line argument in "". 
 
 import sys
 
+#Check to make sure hashtags are supplied as command line argument.
 if len(sys.argv) < 2:
-	print("Please enter some hashtags to count as a command line argument.")
+	print("Please enter some hashtags to count. Use a command line argument.")
 	sys.exit()
 
-#dictionary = "#japan #japanese #japantravel #traveller #traveling #travelblog #japantrip #asiatravel#asiatrip #japanstyle #travelblogger #travelphotography #photography #photographer #travelasia #visitjapan #wanderlust #scoville #spicychicken #latenighteats #peppers #ghostpeppers #lastdab #hotones #chilies #seanevans #chickenwings #peppers #hotsauce #spicy #youarewhatyoueat #japan #japanese, #test"
+#Import hashtags into dictionary
+dictionary = str(sys.argv[1:])
 
-
-
-#print("The hashtags are:", dictionary)
-#print("You have {} hashtags.".format(dictionary.count("#")))
+#Print how many hashtags you have.
+print("You have {} hashtags.".format(dictionary.count("#")))
