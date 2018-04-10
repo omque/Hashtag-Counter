@@ -1,4 +1,4 @@
-#! python3
+#! /usr/bin/env python3
 # hashtagcount.py - Quickly check how many hashtags you have before posting to Instagram. Supply as command line argument in "". 
 
 import sys
